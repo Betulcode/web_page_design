@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    justify-content: center;
+    border-bottom:5px solid  $secondaryColor;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5rem;
+    height: 150vh;
+}
+.ads{
+    width: 50%;
+    h3{
+        font-size: 20px;
+    }
+}
+
+.contact{
+     color:$thirdColor;
+     background-color: $primaryColor;
+     width: 20%;
+     margin: 20px;
+     padding: 15px;
+     height:250px;
+     h2{
+         font-weight: 600px;
+     }
+ }
+ .rows{
+     background-color: $sixthColor;
+     padding: 20px;
+     border:2px solid  #ccc;
+     margin: 5px;
+ }
+
+ 
+ #name{
+     width: 250px;
+     height: 30px;
+ }
+ #textarea{
+    width: 250px;
+    height: 50px;
+ }
+
+
+ 
+@media (max-width:720px)
+{
+  .content{
+      flex-direction: column;
+      height: auto;
+}
+.ads{
+    width: 100%}
+
+.contact{
+    margin: 0;
+    width: 100%;
+}
+
+}

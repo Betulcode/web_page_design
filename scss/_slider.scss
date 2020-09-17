@@ -1,0 +1,20 @@
+.slider{
+    height:  400px;
+    background-image:url(../img/showcase.jpg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:$thirdColor;
+    
+    h1{ 
+        font-weight: bold;
+        font-size:55px;
+    }
+    p{
+       font-size: 20px;
+       margin: 0 100px;
+       text-align: center;
+    }
+
+}

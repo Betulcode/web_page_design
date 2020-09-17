@@ -1,0 +1,29 @@
+.search-container{
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: $primaryColor;
+    h3{
+        font-size:20px;
+        color:$thirdColor;
+    }
+}
+.search{
+    margin: 25px 5px;
+    height: 35px;
+    width: 250px
+}
+.subscribe{
+    height:35px;
+    width: 100px;
+    background: $secondaryColor;
+    border: 0;
+    color:$thirdColor;
+  }
+
+  @media (max-width:720px)
+  {
+    .search-container{
+        flex-direction: column;
+  }
+}

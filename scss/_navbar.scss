@@ -1,0 +1,45 @@
+.navbar{
+    background-color: $primaryColor;
+    display: flex;
+    justify-content: space-around;
+    border:2px solid $secondaryColor;
+}
+.left{ 
+    letter-spacing: 0.3px;
+    font-size: 25px ;
+    color:$thirdColor;
+    span{
+        color:$secondaryColor;
+    }
+}  
+
+.right{
+        display: flex;
+        align-items: center;
+       
+        a{
+            color:$thirdColor;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding:10px;
+                       
+        }
+        a:link{
+            color:$secondaryColor;
+        }
+        a:hover{
+            color:#ccc;
+            font-weight: bold;
+        }
+        a:first-child{
+            color:$secondaryColor;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+}
+@media (max-width:720px)
+{
+  .navbar{
+      flex-direction: column;
+}
+}
